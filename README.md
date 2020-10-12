@@ -1,2 +1,5 @@
-# nlw_happy
-Código feito por mim na Next Level Week #3
+# Happy
+Happy is an application that connects people with orphanages nearby to guide them on visits.
+
+# Note
+Code made by me during the Next Level Week #3
