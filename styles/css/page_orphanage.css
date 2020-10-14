@@ -51,7 +51,6 @@ main{
   border: 1px solid #d3e2e5;
 
   border-radius: 2rem;
-
   overflow: hidden;
 }
 
@@ -113,7 +112,7 @@ main{
   margin-top: 2.4rem;
 }
 
-.map-container {
+.orphanage-details-content .map-container {
   margin-top: 6.4rem;
   background: #e6f7fb;
   border: 1px solid #b3dae2;
@@ -125,17 +124,17 @@ main{
   height: 28rem;
 }
 
-.map-container footer {
+.orphanage-details-content .map-container footer {
   padding: 2rem 0;
   text-align: center;
 }
 
-.map-container footer a {
+.orphanage-details-content .map-container footer a {
   color: #0089a5;
   text-decoration: none;
 }
 
-.map-container .leaflet-container {
+.orphanage-details-content .map-container .leaflet-container {
   border-bottom: 1px solid #dde3f0;
   border-radius: 2rem;
 }
