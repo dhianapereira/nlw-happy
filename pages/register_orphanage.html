@@ -50,7 +50,8 @@
 
             <div class="map-container">
               <div id="map-id"></div>
-
+              <input type="hidden" name="lat">
+              <input type="hidden" name="lng">
               <footer>
                 <a href="#" id="select-point">
                   Clique no mapa para adicionar a localização
@@ -83,12 +84,12 @@
                     placeholder="Cole o link da foto aqui"
                     required
                   />
-                  <span
+                  <span onclick="deleteField(event)"
                     ><img src="../styles/img/remove.svg" alt="Remover foto"
                   /></span>
                 </div>
               </div>
-              <button type="button">
+              <button onclick="addPhotoField()" type="button">
                 <img src="../styles/img/add.svg" alt="Adicionar nova imagem" />
               </button>
             </div>
