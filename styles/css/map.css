@@ -13,6 +13,7 @@
 .map-container footer {
   padding: 2rem 0;
   text-align: center;
+  font-weight: 700;
 }
 
 .map-container footer a {

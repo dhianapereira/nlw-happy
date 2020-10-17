@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="../styles/css/animations.css" />
     <link rel="stylesheet" href="../styles/css/sidebar.css" />
     <link rel="stylesheet" href="../styles/css/form.css" />
+    <link rel="stylesheet" href="../styles/css/buttons.css" />
     <link rel="stylesheet" href="../styles/css/map.css" />
     <link rel="stylesheet" href="../styles/css/register_orphanage.css" />
 
@@ -59,19 +60,68 @@
 
             <div class="input-block">
               <label for="name">Nome</label>
-              <input id="name" type="text" name="name" />
+              <input id="name" name="name" required />
             </div>
             <div class="input-block">
-              <label for="about">Sobre <span>Máximo de 300 caracteres</span></label>
-              <textarea id="about" name="about"></textarea>
+              <label for="about"
+                >Sobre <span>Máximo de 300 caracteres</span></label
+              >
+              <textarea id="about" name="about" required></textarea>
             </div>
             <div class="input-block">
               <label for="whastapp">Número de WhatsApp</label>
-              <input id="whastapp" type="text" name="whastapp" />
+              <input id="whastapp" name="whastapp" required />
+            </div>
+
+            <div class="input-block images">
+              <label for="images">Foto</label>
+
+              <div id="images" class="images-upload">
+                <div class="new-upload">
+                  <input
+                    name="images"
+                    placeholder="Cole o link da foto aqui"
+                    required
+                  />
+                  <span
+                    ><img src="../styles/img/remove.svg" alt="Remover foto"
+                  /></span>
+                </div>
+              </div>
+              <button type="button">
+                <img src="../styles/img/add.svg" alt="Adicionar nova imagem" />
+              </button>
             </div>
           </fieldset>
           <fieldset>
             <legend>Visitação</legend>
+
+            <div class="input-block">
+              <label for="instructions">Instruções</label>
+              <textarea id="instructions" name="instructions" required></textarea>
+            </div>
+            <div class="input-block">
+              <label for="opening-hours">Horários das visitas</label>
+              <input id="opening-hours" name="opening-hours" required />
+            </div>
+
+            <div class="input-block">
+              <label for="open-on-weekends">Atende fim de semana?</label>
+              <input
+                type="hidden"
+                name="open-on-weekends"
+                id="open-on-weekends"
+                value="1"
+                required
+              />
+
+              <div class="button-select">
+                <button type="button" class="active">Sim</button>
+                <button type="button">Não</button>
+              </div>
+
+              <button type="submit" class="primary-button">Confirmar</button>
+            </div>
           </fieldset>
         </form>
       </main>
