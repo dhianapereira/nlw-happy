@@ -11,6 +11,6 @@ server
   .get("/", pages.index)
   .get("/location_orphanages", pages.locationOrphanages)
   .get("/page_orphanage", pages.pageOrphanage)
-  .get("/register_orphanage", pages.registerOrphanage)
+  .get("/register_orphanage", pages.registerOrphanage);
 
 server.listen(5500);
