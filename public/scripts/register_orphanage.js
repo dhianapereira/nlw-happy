@@ -69,3 +69,11 @@ function toggleSelect(event) {
 
   input.value = button.dataset.value;
 }
+
+function validate(event) {
+  const needsLatAndLng = false;
+  if (needsLatAndLng) {
+    event.preventDefault();
+    alert("Selecione um ponto no mapa para definir a localização.");
+  }
+}

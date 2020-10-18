@@ -42,4 +42,32 @@ module.exports = {
   registerOrphanage(require, response) {
     return response.render("register_orphanage");
   },
+
+  async saveOrphanage(require, response) {
+    const fields = require.body;
+
+    if (Object.values(fields).includes("")) {
+      return response.send("Todos os campos devem ser preenchidos");
+    }
+
+    try {
+      const db = await Database;
+      await saveOrphanage(db, {
+        lat: fields.lat,
+        lng: fields.lng,
+        name: fields.name,
+        about: fields.about,
+        whatsapp: fields.whatsapp,
+        images: fields.images.toString(),
+        instructions: fields.instructions,
+        opening_hours: fields.opening_hours,
+        open_on_weekends: fields.open_on_weekends,
+      });
+
+      return response.redirect("/location_orphanages");
+    } catch (error) {
+      console.log(error);
+      return response.send("Erro no banco de dados");
+    }
+  },
 };
