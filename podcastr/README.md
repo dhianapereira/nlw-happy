@@ -4,7 +4,7 @@ Código construído por mim da aplicação Podcastr da Next Level Week 05.
 ## Design
 O design da aplicação foi criado no Figma. Para acessar [clique aqui](https://www.figma.com/file/UwFEntsHpHYJlHNQAQr4gA/Podcastr/duplicate).
 
-![Design](https://github.com/dhianapereira/podcastr/assets/40719464/6b6d6783-c814-4c8a-9045-adb6d8dd9784)
+![Design](https://github.com/dhianapereira/nlw-happy/assets/40719464/d6e661f0-557a-48e7-8a9a-5b9d65bc972d)
 
 ## Ambiente de Desenvolvimento
 Para evitar problemas é legal que seu ambiente de desenvolvimento esteja com
