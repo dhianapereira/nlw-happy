@@ -4,7 +4,7 @@ Código construído por mim da aplicação Move It da Next Level Week 04.
 ## Design
 O design da aplicação foi criado no Figma. Para acessar [clique aqui](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it-1.0).
 
-![Design](https://github.com/dhianapereira/move-it/assets/40719464/47b71308-4ba3-419f-a1ad-4d6017a2a4ff)
+![Design](https://github.com/dhianapereira/nlw-happy/assets/40719464/5d7aa97d-1d21-4ef0-8aae-99943ed164d6)
 
 ## Ambiente de Desenvolvimento
 Para evitar problemas é legal que seu ambiente de desenvolvimento esteja com
